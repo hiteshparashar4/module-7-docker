@@ -20,8 +20,8 @@ docker run -p 27017:27017 -d -e MONGO_INITDB_ROOT_USERNAME=admin -e MONGO_INITDB
 docker run -d -p 8081:8081 -e ME_CONFIG_MONGODB_ADMINUSERNAME=admin -e ME_CONFIG_MONGODB_ADMINPASSWORD=password --net mongo-network --name mongo-express -e ME_CONFIG_MONGODB_SERVER=mongo mongo-express
 
 6. Connect node server with mongoDB container
-<img width="554" alt="Capture d’écran 2022-10-15 à 19 07 59" src="https://user-images.githubusercontent.com/62488871/195999139-741587f7-8934-4381-b1d6-04d21811b0cb.png">
-<img width="1175" alt="Capture d’écran 2022-10-15 à 19 08 16" src="https://user-images.githubusercontent.com/62488871/195999153-691ce01c-7553-4589-9462-a35cd0054e49.png">
+<img width="544" height="798" alt="1" src="https://github.com/user-attachments/assets/1a3aac8f-08a6-452d-bdfd-94aa252a693b" />
+
 
 7. Run containers this time using docker compose file, test it works, then stop containers using docker compose cmd
 docker-compose -f docker-compose.yaml up
